@@ -1,4 +1,13 @@
-# Week1
+# :book: Week1
+
+<br>
+
+:bookmark_tabs: **목차**
+
+- [프로젝트 환경설정](#프로젝트-환경설정)
+- [도메인 분석 설계](#도메인-분석-설계)
+- [애플리케이션 구현 준비](#애플리케이션-구현-준비)
+- [회원 도메인 개발](#회원-도메인-개발)
 
 <br>
 
@@ -204,7 +213,7 @@ https://github.com/HomoEfficio/dev-tips/blob/master/Spring-Boot-%EB%A0%88%EC%9D%
 
 <br>
 
-##### 연관 관계 주인
+##### 연관 관계 주인
 
 ```
 연관 관계의 주인은 외래 키를 관리의 주체를 결정하는 일
@@ -216,7 +225,7 @@ https://github.com/HomoEfficio/dev-tips/blob/master/Spring-Boot-%EB%A0%88%EC%9D%
 
 #### 엔티티 클래스 개발
 
-각 엔티티 클래스에 무분별하게 Getter, Setter 를 열 경우 관리 추적이 힘드므로 `비지니스에 따라 의미있는 메서드`를 사용하여 관리포인트를 줄이는 편이 좋음
+각 엔티티 클래스에 무분별하게 Getter, Setter 를 열 경우 관리 추적이 힘드므로 `비지니스에 따라 의미있는 메서드`를 사용하여 관리포인트를 줄이는 편이 좋음
 
 - 실무에서는 @ManyToMany 사용 X
   - 1:N , N:1 관계로 풀어야함
@@ -241,9 +250,9 @@ https://github.com/HomoEfficio/dev-tips/blob/master/Spring-Boot-%EB%A0%88%EC%9D%
 
 <br>
 
-### 회원 도메인 개발
+### 회원 도메인 개발
 
-##### 사용된 어노테이션 설명
+##### 사용된 어노테이션 설명
 
 - @Repository : 스프링 빈으로 등록, JPA 예외를 스프링 기반 예외로 예외 변환 
 - @PersistenceContext : 엔티티 메니저( EntityManager ) 주입 
@@ -266,7 +275,8 @@ https://github.com/HomoEfficio/dev-tips/blob/master/Spring-Boot-%EB%A0%88%EC%9D%
   
 
   ```
-  참고: 테스트 케이스 작성 고수 되는 마법: Given, When, Then (http://martinfowler.com/bliki/GivenWhenThen.html) > 이 방법이 필수는 아니지만 이 방법을 기본으로 해서 다양하게 응용하는 것을 권장한다
-  ```
-
+  참고: 테스트 케이스 작성 고수 되는 마법: Given, When, Then (http://martinfowler.com/bliki/GivenWhenThen.html)
+  이 방법이 필수는 아니지만 이 방법을 기본으로 해서 다양하게 응용하는 것을 권장한다
+```
+  
   
