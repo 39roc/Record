@@ -48,7 +48,7 @@
 
 [JPA 명세](https://www.oracle.com/java/technologies/persistence-jsp.html)
 
-![2](/image/2.PNG)
+![2](image/2.PNG)
 
 <br>
 
