@@ -48,7 +48,7 @@
 
 [JPA 명세](https://www.oracle.com/java/technologies/persistence-jsp.html)
 
-![2](/image/2.PNG)
+![2](image/2.PNG)
 
 <br>
 
@@ -319,3 +319,5 @@ JPA 어노테이션의 옵션중 DDL 시에 적용되는 사항 제약조건들�
 - 테이블의 외래키를 객체으 그대로 가져옴
 - 객체 그래드 탐색이 불가능
 - 참조가 없으므로 UML 잘못됨
+
+
